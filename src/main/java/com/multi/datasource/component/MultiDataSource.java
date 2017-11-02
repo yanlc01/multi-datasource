@@ -3,7 +3,7 @@ package com.multi.datasource.component;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MultiDataSource extends AbstractRoutingDataSource {
 	
 	private final ThreadLocal<String> sourceKey = new InheritableThreadLocal<String>();
